@@ -14,6 +14,47 @@ public class Rechteck {
 
   }
 
+
+  public int getPositionX() {
+    return this.positionX;
+  }
+
+  public void setPositionX(int positionX) {
+    this.positionX = positionX;
+  }
+
+  public int getPositionY() {
+    return this.positionY;
+  }
+
+  public void setPositionY(int positionY) {
+    this.positionY = positionY;
+  }
+
+  public int getBreite() {
+    return this.breite;
+  }
+
+  public void setBreite(int breite) {
+    this.breite = breite;
+  }
+
+  public int getHoehe() {
+    return this.hoehe;
+  }
+
+  public void setHoehe(int hoehe) {
+    this.hoehe = hoehe;
+  }
+
+  public String getFarbe() {
+    return this.farbe;
+  }
+
+  public void setFarbe(String farbe) {
+    this.farbe = farbe;
+  }
+
   public Rechteck(int positionX, int positionY, int breite, int hoehe, String farbe){
     this.positionX = positionX;
     this.positionY = positionY;
