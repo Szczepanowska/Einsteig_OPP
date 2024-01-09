@@ -1,6 +1,7 @@
 package figuren;
 public class Kreis {
 
+  public static final int PositionX = 0;
   int positionX;
   int positionY;
   int radius;
