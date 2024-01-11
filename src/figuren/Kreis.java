@@ -32,7 +32,11 @@ public class Kreis {
   }
 
   public void setRadius(int radius) {
-    this.radius = radius;
+    if (radius <= 0){
+      System.out.println("Wert nicht erlaubt");
+    } else {
+        this.radius = radius;
+    }
   }
 
   public String getFarbe() {

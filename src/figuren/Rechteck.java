@@ -36,15 +36,24 @@ public class Rechteck {
   }
 
   public void setBreite(int breite) {
-    this.breite = breite;
+    if (breite <= 0){
+      System.out.println("Wert nicht erlaubt");
+    } else {
+        this.breite = breite;
+    }
   }
+
 
   public int getHoehe() {
     return this.hoehe;
   }
 
   public void setHoehe(int hoehe) {
-    this.hoehe = hoehe;
+    if (hoehe <= 0){
+      System.out.println("Wert nicht erlaubt");
+    } else {
+        this.hoehe = hoehe;
+    }
   }
 
   public String getFarbe() {
