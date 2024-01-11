@@ -18,7 +18,7 @@ public class TagNacht {
     leinwand.zeichne(gruen);
     leinwand.zeichne(braun);
 
-    leinwand.warte(300);
+    leinwand.warte(700);
     gelb.verschieben(250, -100);
     leinwand.zeichne(gelb);
 
